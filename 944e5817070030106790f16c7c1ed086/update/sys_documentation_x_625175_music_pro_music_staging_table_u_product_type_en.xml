@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="price" label="Price" language="en" table="x_625175_music_pro_music_product">
+    <sys_documentation element="u_product_type" label="Product Type" language="en" table="x_625175_music_pro_music_staging_table">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>price</element>
+            <element>u_product_type</element>
             <help/>
             <hint/>
-            <label>Price</label>
+            <label>Product Type</label>
             <language>en</language>
-            <name>x_625175_music_pro_music_product</name>
-            <plural>Prices</plural>
+            <name>x_625175_music_pro_music_staging_table</name>
+            <plural>Product Types</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-16 05:24:18</sys_created_on>
-            <sys_id>d380fc17074030106790f16c7c1ed0b0</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>Price</sys_name>
+            <sys_created_on>2021-05-16 06:22:11</sys_created_on>
+            <sys_id>dfcdb4df074030106790f16c7c1ed0af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Product Type</sys_name>
             <sys_package display_value="Music Product Management" source="x_625175_music_pro">944e5817070030106790f16c7c1ed086</sys_package>
             <sys_policy/>
             <sys_scope display_value="Music Product Management">944e5817070030106790f16c7c1ed086</sys_scope>
-            <sys_update_name>sys_documentation_x_625175_music_pro_music_product_price_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_625175_music_pro_music_staging_table_u_product_type_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-16 06:34:51</sys_updated_on>
+            <sys_updated_on>2021-05-16 06:22:11</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

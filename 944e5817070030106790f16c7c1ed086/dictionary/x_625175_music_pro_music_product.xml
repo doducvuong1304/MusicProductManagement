@@ -5,7 +5,7 @@
         <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="50" name="email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
-        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Cost" mandatory="true" max_length="20" name="price" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" mandatory="true" max_length="20" name="price" type="price"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="audio" label="Product Type" mandatory="true" max_length="40" name="product_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Audio" value="audio"/>
@@ -20,6 +20,8 @@
                 <element inactive_on_update="false" label="Completed" value="completed"/>
                 <element inactive_on_update="false" label="In progress" value="in_progress"/>
                 <element inactive_on_update="false" label="Not completed" value="not_completed"/>
+                <element inactive_on_update="false" label="Complete" sequence="0" value="Complete"/>
+                <element inactive_on_update="false" label="Not Complete" sequence="0" value="Not Complete"/>
             </choice>
         </element>
         <index name="index">
