@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>status</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-16 04:22:13</sys_created_on>
+        <sys_data_policy display_value="Sets the Status field to mandatory">ce52609b070030106790f16c7c1ed0bc</sys_data_policy>
+        <sys_id>c652609b070030106790f16c7c1ed0c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Music Product Management" source="x_625175_music_pro">944e5817070030106790f16c7c1ed086</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Music Product Management">944e5817070030106790f16c7c1ed086</sys_scope>
+        <sys_update_name>sys_data_policy_rule_c652609b070030106790f16c7c1ed0c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-16 04:22:13</sys_updated_on>
+        <table>x_625175_music_pro_music_product</table>
+    </sys_data_policy_rule>
+</record_update>

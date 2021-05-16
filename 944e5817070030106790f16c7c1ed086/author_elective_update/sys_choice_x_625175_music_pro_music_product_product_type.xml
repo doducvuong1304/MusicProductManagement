@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="product_type" table="x_625175_music_pro_music_product" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>product_type</element>
+            <name>x_625175_music_pro_music_product</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-16 04:22:14</sys_created_on>
+            <sys_id>ca52609b070030106790f16c7c1ed0f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>product_type</sys_name>
+            <sys_package display_value="Music Product Management" source="x_625175_music_pro">944e5817070030106790f16c7c1ed086</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Music Product Management">944e5817070030106790f16c7c1ed086</sys_scope>
+            <sys_update_name>sys_choice_x_625175_music_pro_music_product_product_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-16 04:22:14</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audio</label>
+            <language>en</language>
+            <name>x_625175_music_pro_music_product</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-16 04:22:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0252609b070030106790f16c7c1ed0f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-16 04:22:14</sys_updated_on>
+            <value>audio</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Music Video (MV)</label>
+            <language>en</language>
+            <name>x_625175_music_pro_music_product</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-16 04:22:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9252609b070030106790f16c7c1ed0fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-16 04:22:14</sys_updated_on>
+            <value>mv</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

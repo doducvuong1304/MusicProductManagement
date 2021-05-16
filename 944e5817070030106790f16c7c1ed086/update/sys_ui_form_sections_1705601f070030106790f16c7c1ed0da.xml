@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="1705601f070030106790f16c7c1ed0da" sys_domain="global" table="x_625175_music_pro_music_product" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-16 04:34:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d705601f070030106790f16c7c1ed0dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_625175_music_pro_music_product" name="x_625175_music_pro_music_product" sys_domain="global" view="5b05601f070030106790f16c7c1ed07c">1705601f070030106790f16c7c1ed0da</sys_ui_form>
+            <sys_ui_section caption="Basic Information" display_value="Basic Information" name="x_625175_music_pro_music_product" sys_domain="global" view="5b05601f070030106790f16c7c1ed07c">1f05601f070030106790f16c7c1ed080</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-16 04:34:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-16 04:34:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9305601f070030106790f16c7c1ed0dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_625175_music_pro_music_product" name="x_625175_music_pro_music_product" sys_domain="global" view="5b05601f070030106790f16c7c1ed07c">1705601f070030106790f16c7c1ed0da</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_625175_music_pro_music_product" sys_domain="global" view="5b05601f070030106790f16c7c1ed07c">d705601f070030106790f16c7c1ed081</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-16 04:34:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-16 04:34:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d705601f070030106790f16c7c1ed0e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_625175_music_pro_music_product" name="x_625175_music_pro_music_product" sys_domain="global" view="5b05601f070030106790f16c7c1ed07c">1705601f070030106790f16c7c1ed0da</sys_ui_form>
+            <sys_ui_section caption="Actions" display_value="Actions" name="x_625175_music_pro_music_product" sys_domain="global" view="5b05601f070030106790f16c7c1ed07c">9305601f070030106790f16c7c1ed082</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-16 04:34:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_625175_music_pro_music_product</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-16 04:34:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1705601f070030106790f16c7c1ed0da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_625175_music_pro_music_product</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Music Product Management" source="x_625175_music_pro">944e5817070030106790f16c7c1ed086</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Music Product Management">944e5817070030106790f16c7c1ed086</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1705601f070030106790f16c7c1ed0da</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-16 04:34:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Admin" name="Admin">5b05601f070030106790f16c7c1ed07c</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
