@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Music Staging Table" max_length="40" name="x_625175_music_pro_music_staging_table" type="collection">
+    <element extends="sys_import_set_row" label="Music Staging Table" max_length="40" name="x_625175_music_pro_music_staging_table" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Assign to" label="Assign to" max_length="40" name="u_assign_to" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Author" label="Author" max_length="40" name="u_author" type="string"/>
         <element attributes="import_attribute_name=Cost" label="Cost" max_length="40" name="u_cost" type="float"/>

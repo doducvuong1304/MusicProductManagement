@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>true</active>
+        <condition table="x_625175_music_pro_music_product">status=not_completed^EQ<item display_value="Not completed" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="not_completed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Not Completed</label>
+        <name>Status Bar - Not Completed</name>
+        <order>200</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-17 10:26:52</sys_created_on>
+        <sys_id>eb3f7267074430106790f16c7c1ed0d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status Bar - Not Completed</sys_name>
+        <sys_package display_value="Music Product Management" source="x_625175_music_pro">944e5817070030106790f16c7c1ed086</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Music Product Management">944e5817070030106790f16c7c1ed086</sys_scope>
+        <sys_update_name>sys_process_flow_eb3f7267074430106790f16c7c1ed0d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-17 10:26:52</sys_updated_on>
+        <table>x_625175_music_pro_music_product</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Music Product Management">944e5817070030106790f16c7c1ed086</application>
+        <file_path/>
+        <instance_id>edabfc48db80b7004d2bac44d4961923</instance_id>
+        <instance_name>dev74097</instance_name>
+        <name>sys_process_flow_eb3f7267074430106790f16c7c1ed0d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_625175_music_pro_music_product">status=not_completed^EQ<item display_value="Not completed" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="not_completed"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Not Completed</label><name>Status Bar - Not Completed</name><order>200</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-17 10:26:52</sys_created_on><sys_id>eb3f7267074430106790f16c7c1ed0d5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Status Bar - Not Completed</sys_name><sys_package display_value="Music Product Management" source="x_625175_music_pro">944e5817070030106790f16c7c1ed086</sys_package><sys_policy/><sys_scope display_value="Music Product Management">944e5817070030106790f16c7c1ed086</sys_scope><sys_update_name>sys_process_flow_eb3f7267074430106790f16c7c1ed0d5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-17 10:26:52</sys_updated_on><table>x_625175_music_pro_music_product</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>-271879941</payload_hash>
+        <record_name>Status Bar - Not Completed</record_name>
+        <reverted_from/>
+        <source>f337789b074030106790f16c7c1ed042</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-17 10:26:52</sys_created_on>
+        <sys_id>116f7a67074430106790f16c7c1ed0a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17979dd3c1e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-17 10:26:52</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>596f7a6711443010d59bcf7f20c330a4</update_guid>
+        <update_guid_history>596f7a6711443010d59bcf7f20c330a4:-271879941</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-17 10:30:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>37ca30f9818b4d4e9acae19131521584</sys_id>
+        <sys_metadata>eb3f7267074430106790f16c7c1ed0d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status Bar - Not Completed</sys_name>
+        <sys_package display_value="Music Product Management" source="x_625175_music_pro">944e5817070030106790f16c7c1ed086</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Music Product Management">944e5817070030106790f16c7c1ed086</sys_scope>
+        <sys_scope_delete display_value="">0584cf60ca5c464b969bece2b372eea9</sys_scope_delete>
+        <sys_update_name>sys_process_flow_eb3f7267074430106790f16c7c1ed0d5</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_eb3f7267074430106790f16c7c1ed0d5">116f7a67074430106790f16c7c1ed0a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-17 10:30:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

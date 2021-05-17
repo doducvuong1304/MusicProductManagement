@@ -3,16 +3,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-16 04:29:06</sys_created_on>
+            <sys_created_on>2021-05-17 10:21:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3ee324db070030106790f16c7c1ed067</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>f71e3a27074430106790f16c7c1ed04c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_625175_music_pro_music_product" name="x_625175_music_pro_music_product" sys_domain="global" view="Default view">fee324db070030106790f16c7c1ed064</sys_ui_form>
-            <sys_ui_section caption="Basic Information" display_value="Basic Information" name="x_625175_music_pro_music_product" sys_domain="global" view="Default view">c2c2a09b070030106790f16c7c1ed06a</sys_ui_section>
+            <sys_ui_section caption="Release Status" display_value="Release Status" name="x_625175_music_pro_music_product" sys_domain="global" view="Default view">bb1ef627074430106790f16c7c1ed0f1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-16 04:29:06</sys_updated_on>
+            <sys_updated_on>2021-05-17 10:21:18</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
@@ -20,13 +20,27 @@
             <sys_created_on>2021-05-16 04:29:06</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ee324db070030106790f16c7c1ed067</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_625175_music_pro_music_product" name="x_625175_music_pro_music_product" sys_domain="global" view="Default view">fee324db070030106790f16c7c1ed064</sys_ui_form>
+            <sys_ui_section caption="Basic Information" display_value="Basic Information" name="x_625175_music_pro_music_product" sys_domain="global" view="Default view">c2c2a09b070030106790f16c7c1ed06a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-17 10:21:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-16 04:29:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
             <sys_id>3ae324db070030106790f16c7c1ed068</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_625175_music_pro_music_product" name="x_625175_music_pro_music_product" sys_domain="global" view="Default view">fee324db070030106790f16c7c1ed064</sys_ui_form>
             <sys_ui_section caption="Details" display_value="Details" name="x_625175_music_pro_music_product" sys_domain="global" view="Default view">72e324db070030106790f16c7c1ed032</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-16 04:29:06</sys_updated_on>
+            <sys_updated_on>2021-05-17 10:21:18</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_625175_music_pro_music_product</name>
