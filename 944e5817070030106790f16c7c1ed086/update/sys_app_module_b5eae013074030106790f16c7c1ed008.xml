@@ -4,7 +4,9 @@
         <application display_value="Music Product Management">1e92609b070030106790f16c7c1ed01c</application>
         <assessment/>
         <device_type/>
-        <filter table="x_625175_music_pro_music_product">status=not_completed^EQ<item display_value="Not completed" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="not_completed"/>
+        <filter table="x_625175_music_pro_music_product">status=not_completed^release_date&lt;=javascript:gs.endOfToday()^released=false^EQ<item display_value="Not completed" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="not_completed"/>
+            <item endquery="false" field="release_date" goto="false" newquery="false" operator="&lt;=" or="false" value="javascript:gs.endOfToday()"/>
+            <item endquery="false" field="released" goto="false" newquery="false" operator="=" or="false" value="false"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -19,14 +21,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_625175_music_pro.admin,x_625175_music_pro.user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-16 05:00:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5eae013074030106790f16c7c1ed008</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Overdue</sys_name>
         <sys_overrides/>
         <sys_package display_value="Music Product Management" source="x_625175_music_pro">944e5817070030106790f16c7c1ed086</sys_package>
@@ -34,7 +36,7 @@
         <sys_scope display_value="Music Product Management">944e5817070030106790f16c7c1ed086</sys_scope>
         <sys_update_name>sys_app_module_b5eae013074030106790f16c7c1ed008</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-16 05:47:47</sys_updated_on>
+        <sys_updated_on>2021-05-17 16:22:34</sys_updated_on>
         <timeline_page/>
         <title>Overdue</title>
         <uncancelable>false</uncancelable>

@@ -7,7 +7,7 @@
         <hint>An application building by ServiceNow platform using to management of music product for "King Bean Entertainment"</hint>
         <name/>
         <order/>
-        <roles>x_625175_music_pro.create,x_625175_music_pro.read,x_625175_music_pro.update,x_625175_music_pro.delete</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-16 04:23:20</sys_created_on>

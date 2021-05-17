@@ -17,14 +17,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_625175_music_pro.admin,x_625175_music_pro.user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-16 04:23:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d692609b070030106790f16c7c1ed025</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Create New</sys_name>
         <sys_overrides/>
         <sys_package display_value="Music Product Management" source="x_625175_music_pro">944e5817070030106790f16c7c1ed086</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Music Product Management">944e5817070030106790f16c7c1ed086</sys_scope>
         <sys_update_name>sys_app_module_d692609b070030106790f16c7c1ed025</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-16 05:33:59</sys_updated_on>
+        <sys_updated_on>2021-05-17 16:12:12</sys_updated_on>
         <timeline_page/>
         <title>Create New</title>
         <uncancelable>false</uncancelable>
