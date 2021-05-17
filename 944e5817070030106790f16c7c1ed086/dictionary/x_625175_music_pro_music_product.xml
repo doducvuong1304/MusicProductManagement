@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Music Product" max_length="40" name="x_625175_music_pro_music_product" sizeclass="16" type="collection">
         <element attributes="encode_utf8=false" label="Assign to" mandatory="true" max_length="32" name="assign_to" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Author" mandatory="true" max_length="50" name="author" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Author" max_length="50" name="author" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="50" name="email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" mandatory="true" max_length="20" name="price" type="price"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="audio" label="Product Type" mandatory="true" max_length="40" name="product_type" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="audio" label="Product Type" max_length="40" name="product_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Audio" value="audio"/>
                 <element inactive_on_update="false" label="Music Video (MV)" value="mv"/>
@@ -14,8 +14,8 @@
         </element>
         <element label="Released" max_length="40" name="released" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Release Date" mandatory="true" max_length="40" name="release_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" label="Singer" mandatory="true" max_length="50" name="singer" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="in_progress" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="Singer" max_length="50" name="singer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="in_progress" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Complete" sequence="0" value="Complete"/>
                 <element inactive_on_update="false" label="In progress" sequence="0" value="in_progress"/>
